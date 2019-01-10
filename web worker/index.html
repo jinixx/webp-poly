@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<title>WebP Test</title>
+	<meta name="keywords" content="WebP Converter">
+	<meta name="description" content="WebP Converter">
+	<meta name="author" content="">
+</head>
+<body>
+<article id="container">
+<img src="images/1.webp"/>
+<img src="images/200.webp"/>
+<img src="images/sample.webp"/>
+<img src="images/bored_animation.webp"/>
+<img src="images/1.webp"/>
+<img src="images/200.webp"/>
+<img src="images/sample.webp"/>
+<img src="images/bored_animation.webp"/>
+<img src="images/1.webp"/>
+<img src="images/200.webp"/>
+<img src="images/sample.webp"/>
+<img src="images/bored_animation.webp"/>
+<div id="convertedImageHolder"></div>
+<a href="javascript:void(0)" onclick="findAllWebPAndReplace()">Polyfill WebP</a>
+</article>
+
+<script>(function(){var WebP=new Image();WebP.onload=WebP.onerror=function(){
+if(WebP.height!=2){var sc=document.createElement('script');var sc2=document.createElement('script');sc.type='text/javascript';sc.async=true;
+var s=document.getElementsByTagName('script')[0];sc.src='js/webp0.6test.js';s.parentNode.insertBefore(sc,s);s=document.getElementsByTagName('script')[0];sc2.src='js/viewer.js';s.parentNode.insertBefore(sc2,s);s=document.getElementsByTagName('script')[0];}};
+WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';})();</script>
+
+</body>
+</html>
